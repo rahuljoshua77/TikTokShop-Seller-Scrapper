@@ -9,3 +9,4 @@ Usage:
  
     3. buka CMD/Terminal pada folder botnya, ketik pip install selenium
     
+    4. Jalanin scriptnya, klik file py nya
