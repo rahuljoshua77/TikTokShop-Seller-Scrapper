@@ -136,7 +136,7 @@ def open_browser(limit,datas):
         xpath_el('//span[@id="TikTok_Ads_SSO_Login_Email_Panel_Button"]')
         xpath_type('//input[@type="email"]',email)
         xpath_type('//input[@type="password"]',password)
-        xpath_fast('//button[@name="loginBtn"]')
+        xpath_type('//input[@type="password"]',Keys.ENTER)
         input(f"[{time.strftime('%d-%m-%y %X')}] Push ENTER if you solved the captcha: ")
         try:
             xpath_fast('//div[@class="verify-captcha-submit-button mobile-button__Button-tntg7q-0 bQqmBt"]')
